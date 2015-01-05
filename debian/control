@@ -20,7 +20,8 @@ Homepage: https://github.com/lxde/pcmanfm-qt
 Vcs-Git: git://github.com/lxde/pcmanfm-qt.git
 Vcs-Browser: https://github.com/lxde/pcmanfm-qt
 
-Package: pcmanfm-qt5
+Package: pcmanfm
+Provides: pcmanfm-qt5
 Architecture: any
 Breaks:
  pcmanfm-qt,
@@ -36,7 +37,8 @@ Description: lightweight Qt based file manager for X Windows
  feature-rich file manager with tabbed browsing. It is the default file manager
  for the lightweight desktop environment, LXQt.
 
-Package: pcmanfm-qt5-dbg
+Package: pcmanfm-dbg
+Provides: pcmanfm-qt5-dbg
 Architecture: same
 Section: debug
 Priority: extra
@@ -51,7 +53,7 @@ Description: Debug symbols for pcmanfm-qt
  This package contains debug symbols for PCManFM-Qt.
 
 Package: libfm-qt5-1
-Provides: libfm-qt5
+Provides: libfm-qt5-1
 Section: libs
 Multi-Arch: same
 Architecture: any
@@ -73,6 +75,7 @@ Description: Helper library for pcmanfm-qt
  This package contains helper library libfm-qt for pcmanfm-qt.
 
 Package: libfm-qt5-dev
+Provides: libfm-qt5-dev
 Section: libdevel
 Architecture: any
 Depends: 
@@ -88,6 +91,7 @@ Description: Development files for libfm-qt
  pcmanfm-qt.
 
 Package: libfm-qt5-dbg
+Provides: libfm-qt5-dbg
 Architecture: same
 Section: debug
 Priority: extra
