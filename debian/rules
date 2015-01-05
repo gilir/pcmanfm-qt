@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+
+#DH_VERBOSE = 1
+export USE_QT5=1
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+export DEB_LDFLAGS_MAINT_APPEND  := -Wl,--as-needed
+# CMake doesn't use CPPFLAGS, pass them to CFLAGS/CXXFLAGS instead (bug #662833)
+export DEB_CFLAGS_MAINT_APPEND   := -pipe -Wall $(shell dpkg-buildflags --get CPPFLAGS)
+export DEB_CXXFLAGS_MAINT_APPEND := -pipe -Wall $(shell dpkg-buildflags --get CPPFLAGS)
+
+
+%:
+	dh ${@} --buildsystem cmake --parallel
+
+override_dh_install:
+	dh_install --fail-missing --exclude=pcmanfm-qt.1
+
+override_dh_auto_configure:
+	dh_auto_configure  -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
+
+override_dh_strip:
+	dh_strip -ppcmanfm-qt5 --dbg-package=pcmanfm-qt5-dbg
+	dh_strip -plibfm-qt5-1 --dbg-package=libfm-qt5-dbg
+
+maintainer-clean:
+	$(RM) -r $$(ls | grep -v debian )
+	$(RM) -r .pc
+	$(RM) -r .xyz
+	dh_clean
+
+get-orig-source: maintainer-clean
+	git clone git://github.com/lxde/pcmanfm-qt.git .xyz; \
+	cd .xyz; \
+	cp -a * ..; \
+	echo "";\
+	git log --max-count=1 | head; \
+	echo ""; \
+

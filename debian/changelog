@@ -1,0 +1,5 @@
+pcmanfm-qt (0.8.1-2) experimental; urgency=medium
+ 
+  * Initial release (Closes: #747605)
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 05 Jan 2015 02:09:01 +0100

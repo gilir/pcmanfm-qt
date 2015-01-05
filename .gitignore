@@ -1,0 +1,14 @@
+# upstream repo
+/.xyz/
+
+# original source
+/AUTHORS
+/CMakeLists.txt
+/COPYING
+/Doxyfile.in
+/README
+/libfm-qt/
+/pcmanfm-qt.1.in
+/pcmanfm-qt.kdev4
+/pcmanfm/
+
