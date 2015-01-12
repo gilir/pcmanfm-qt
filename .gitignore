@@ -1,14 +1,11 @@
-# upstream repo
-/.xyz/
+# don't track upstream sources
+/checkout
 
-# original source
-/AUTHORS
-/CMakeLists.txt
-/COPYING
-/Doxyfile.in
-/README
-/libfm-qt/
-/pcmanfm-qt.1.in
-/pcmanfm-qt.kdev4
-/pcmanfm/
+# don't track package builds
+/*.deb
+/*.dsc
+/*.tar.gz
+/*.build
+/*.changes
+/*.upload
 
