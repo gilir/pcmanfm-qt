@@ -1,3 +1,15 @@
+pcmanfm-qt (0.8.1-9) experimental; urgency=medium
+  
+  * add and fix symbols file
+  * commit ef4c30fbf583cabed65843ece7bc2cdfd104e81a
+    Add spanish translations
+  * renamed some packages and stuff not to use qt5 suffix
+  * added missed build dependency liblxqt0
+  * added missed build dependency libqt5xdg 
+  * rename packages and debian $foo - don't use qt5 suffix if not needed
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Jan 2015 16:55:34 +0100
+
 pcmanfm-qt (0.8.1-2) experimental; urgency=medium
  
   * Initial release (Closes: #747605)

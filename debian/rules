@@ -5,17 +5,17 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 
 %:
-	dh ${@} --buildsystem cmake --parallel
+	dh ${@} --buildsystem cmake --parallel --with quilt
 
 
 override_dh_install:
-	dh_install --fail-missing --exclude=pcmanfm-qt.1
+	dh_install --list-missing --fail-missing --exclude=pcmanfm-qt.1
 
 override_dh_auto_configure:
 	dh_auto_configure  -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
 
 override_dh_strip:
-	dh_strip -ppcmanfm-qt5 --dbg-package=pcmanfm-qt5-dbg
+	dh_strip -ppcmanfm-qt --dbg-package=pcmanfm-qt-dbg
 	dh_strip -plibfm-qt5-1 --dbg-package=libfm-qt5-dbg
 
 
@@ -36,3 +36,5 @@ get-orig-source: maintainer-clean
 	git log | head; \
 	echo ""; \
 
+new-symbols:
+	find . -name symbols | xargs sed 's/ \(_.*\) \(.*\)/ (c++)"\1" \2/' | c++filt | uniq > debian/mangled
