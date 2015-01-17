@@ -1,3 +1,9 @@
+pcmanfm-qt (0.8.1-10) experimental; urgency=medium
+
+  * transitional packages added
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Jan 2015 13:45:54 +0100
+
 pcmanfm-qt (0.8.1-9) experimental; urgency=medium
   
   * add and fix symbols file
