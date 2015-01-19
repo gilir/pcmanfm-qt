@@ -1,3 +1,1 @@
-# tar ignore
-tar-ignore=.xyz
 tar-ignore=.gitignore

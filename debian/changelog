@@ -1,3 +1,12 @@
+pcmanfm-qt (0.8.1-11) experimental; urgency=medium
+
+  * debian maintainers, checkout, symbols 
+  * transitional packages fixed
+  * commit 567a7fd8250cb762e411dd14dc0303d7856c64b2
+    Fix #396: pcmanfm-qt back and/or up does not remember position.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Jan 2015 03:28:08 +0100
+
 pcmanfm-qt (0.8.1-10) experimental; urgency=medium
 
   * transitional packages added

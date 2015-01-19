@@ -28,7 +28,7 @@ maintainer-clean:
 	$(RM) *.tar.gz
 	$(RM) *.upload
 
-get-orig-source: maintainer-clean
+checkout: maintainer-clean
 	git clone --depth=1 git://github.com/lxde/pcmanfm-qt.git checkout; \
 	cd checkout; \
 	cp -a ../debian .; \
@@ -36,5 +36,5 @@ get-orig-source: maintainer-clean
 	git log | head; \
 	echo ""; \
 
-new-symbols:
+symbols:
 	find . -name symbols | xargs sed 's/ \(_.*\) \(.*\)/ (c++)"\1" \2/' | c++filt | uniq > debian/mangled

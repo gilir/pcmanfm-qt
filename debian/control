@@ -1,8 +1,10 @@
 Source: pcmanfm-qt
 Section: x11
 Priority: optional
-Maintainer: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
-Uploaders: Alf Gaida <agaida@siduction.org>
+Maintainer: Debian LXQt Maintainers <lxqt-debian@lists.lxde.org>
+Uploaders:
+ Alf Gaida <agaida@siduction.org>,
+ ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
 Build-Depends:
  automoc,
  cmake (>= 3.0.2),
@@ -25,7 +27,8 @@ Vcs-Browser: https://github.com/lxde/pcmanfm-qt
 
 Package: pcmanfm-qt
 Architecture: any
-Replaces: pcmanfm-qt5,
+Breaks: pcmanfm-qt5 (<< 0.9.0)
+Replaces: pcmanfm-qt5 (<< 0.9.0)
 Depends:
   ${misc:Depends},
   ${shlibs:Depends}, 
@@ -40,7 +43,8 @@ Package: pcmanfm-qt-dbg
 Architecture: same
 Section: debug
 Priority: extra
-Replaces: pcmanfm-qt5-dbg
+Breaks: pcmanfm-qt5-dbg (<< 0.2.0)
+Replaces: pcmanfm-qt5-dbg (<< 0.2.0)
 Depends:
   ${misc:Depends},
   pcmanfm-qt (= ${binary:Version}),
@@ -102,7 +106,7 @@ Description: Debug symbols for libfm-qt
 # ---- to be removed in 2016 ----
 
 Package: pcmanfm-qt5
-Depends: pcmanfm-qt
+Depends: pcmanfm-qt, ${misc:Depends}
 Priority: extra
 Section: oldlibs
 Architecture: all
@@ -110,7 +114,7 @@ Description: pcmanfm-qt transitional package
  Empty package to facilitate upgrades, can be safely removed.
 
 Package: pcmanfm-qt5-dbg
-Depends: pcmanfm-qt-dbg
+Depends: pcmanfm-qt-dbg, ${misc:Depends}
 Priority: extra
 Section: oldlibs
 Architecture: all
