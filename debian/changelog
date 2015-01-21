@@ -1,3 +1,10 @@
+pcmanfm-qt (0.8.1-12) experimental; urgency=medium
+
+  * commit cfa3eb6d87d8d773c2eb6b5d008a7bc77bb5fb5e
+    Support reordering of tabs using drag and drop. 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 21 Jan 2015 19:46:39 +0100
+
 pcmanfm-qt (0.8.1-11) experimental; urgency=medium
 
   * debian maintainers, checkout, symbols 
