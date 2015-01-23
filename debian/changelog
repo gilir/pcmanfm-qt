@@ -1,3 +1,10 @@
+pcmanfm-qt (0.8.1-14) experimental; urgency=medium
+
+  * commit 5d99404d731e5f52023c3380c5406f2f0aad0c29
+    Support linguistic sorting of file names. This fixes #105.
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 23 Jan 2015 01:53:14 +0100
+
 pcmanfm-qt (0.8.1-13) experimental; urgency=medium
 
   * commit 1b43d095484c620f98bfda8cebb14832f2fa226c
