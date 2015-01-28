@@ -1,3 +1,10 @@
+pcmanfm-qt (0.8.1-15) experimental; urgency=medium
+
+  * commit 6b03e8b636bf034c569835f85abffc48d2f5756e
+    Fix the broken sorting option. 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 28 Jan 2015 02:33:55 +0100
+
 pcmanfm-qt (0.8.1-14) experimental; urgency=medium
 
   * commit 5d99404d731e5f52023c3380c5406f2f0aad0c29
