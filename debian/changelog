@@ -1,3 +1,17 @@
+pcmanfm-qt (0.8.99-2) experimental; urgency=medium
+
+  * commit b99c085592d986f180253094b28cda7508922d3a
+    Remove unnecessary '\n' charactor from the translated strings.
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 29 Jan 2015 21:37:42 +0100
+
+pcmanfm-qt (0.8.99-1) experimental; urgency=medium
+
+  * commit de802a1e367f8e839180cf56a8cf70e410eafe9e
+    Bump version numbers, preparing for a new release.
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 28 Jan 2015 18:05:10 +0100
+
 pcmanfm-qt (0.8.1-15) experimental; urgency=medium
 
   * commit 6b03e8b636bf034c569835f85abffc48d2f5756e
