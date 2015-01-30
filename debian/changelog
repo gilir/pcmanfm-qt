@@ -1,3 +1,11 @@
+pcmanfm-qt (0.8.99-3) experimental; urgency=medium
+
+  * commit 5eb531427aed5b76c54f4694a5f28114e3288477
+    Add very basic "remaining time" display to the progress dialog.
+    Fix lxde/lxqt#463 - Progress dialog of pcmanfm-qt does not show remaining time.
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 30 Jan 2015 15:58:55 +0100
+
 pcmanfm-qt (0.8.99-2) experimental; urgency=medium
 
   * commit b99c085592d986f180253094b28cda7508922d3a
