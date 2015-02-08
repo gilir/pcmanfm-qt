@@ -55,7 +55,7 @@ Description: Debug symbols for pcmanfm-qt
  .
  This package contains debug symbols for PCManFM-Qt.
 
-Package: libfm-qt5-1
+Package: libfm-qt5-2
 Section: libs
 Multi-Arch: same
 Architecture: any
@@ -63,6 +63,7 @@ Pre-Depends: ${misc:Pre-Depends},
 Replaces:
   libfm-qt5-0.0.0,
   libfm-qt0.0.0,
+  libfm-qt5-1,
 Depends:
   ${misc:Depends},
   ${shlibs:Depends},
@@ -79,7 +80,7 @@ Architecture: any
 Depends: 
    ${misc:Depends},
    ${shlibs:Depends}, 
-   libfm-qt5-1 (= ${binary:Version}),
+   libfm-qt5-2 (= ${binary:Version}),
 Description: Development files for libfm-qt
  PCMan  File  Manager  Qt  (PCManFM-Qt)  is an extremly fast, lightweight, yet
  feature-rich file manager with tabbed browsing. It is the default file manager
@@ -95,7 +96,7 @@ Priority: extra
 Depends:
   ${misc:Depends},
   ${shlibs:Depends},
-  libfm-qt5-1 (= ${binary:Version}),
+  libfm-qt5-2 (= ${binary:Version}),
 Description: Debug symbols for libfm-qt
  PCMan  File  Manager  Qt  (PCManFM-Qt)  is an extremly fast, lightweight, yet
  feature-rich file manager with tabbed browsing. It is the default file manager

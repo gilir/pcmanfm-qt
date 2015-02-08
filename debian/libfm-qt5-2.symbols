@@ -1,4 +1,4 @@
-libfm-qt5.so.1 libfm-qt5-1 #MINVER#
+libfm-qt5.so.2 libfm-qt5-2 #MINVER#
  (c++)"Fm::FolderMenu::onCreateNew()@Base" 0.8.0
  (c++)"Fm::FolderMenu::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.8.0
  (c++)"Fm::FolderMenu::qt_metacast(char const*)@Base" 0.8.0
@@ -58,6 +58,8 @@ libfm-qt5.so.1 libfm-qt5-1 #MINVER#
  (c++)"Fm::FontButton::onClicked()@Base" 0.8.0
  (c++)"Fm::FontButton::FontButton(QWidget*)@Base" 0.8.0
  (c++)"Fm::FontButton::~FontButton()@Base" 0.8.0
+ (c++)"Fm::PlacesView::commitData(QWidget*)@Base" 0.9.0
+ (c++)"Fm::PlacesView::activateRow(int, QModelIndex const&)@Base" 0.9.0
  (c++)"Fm::PlacesView::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.8.0
  (c++)"Fm::PlacesView::qt_metacast(char const*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onEmptyTrash()@Base" 0.8.0
@@ -75,6 +77,7 @@ libfm-qt5.so.1 libfm-qt5-1 #MINVER#
  (c++)"Fm::PlacesView::onEjectButtonClicked(Fm::PlacesModelItem*)@Base" 0.8.0
  (c++)"Fm::PlacesView::dropEvent(QDropEvent*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onClicked(QModelIndex const&)@Base" 0.8.0
+ (c++)"Fm::PlacesView::onPressed(QModelIndex const&)@Base" 0.9.0
  (c++)"Fm::PlacesView::PlacesView(QWidget*)@Base" 0.8.0
  (c++)"Fm::PlacesView::~PlacesView()@Base" 0.8.0
  (c++)"Fm::createFile(Fm::CreateFileType, _FmPath*, _FmTemplate*, QWidget*)@Base" 0.8.0
@@ -391,6 +394,7 @@ libfm-qt5.so.1 libfm-qt5-1 #MINVER#
  (c++)"Fm::FileOperationDialog::setDestPath(_FmPath*)@Base" 0.8.0
  (c++)"Fm::FileOperationDialog::setPrepared()@Base" 0.8.0
  (c++)"Fm::FileOperationDialog::setSourceFiles(_FmPathList*)@Base" 0.8.0
+ (c++)"Fm::FileOperationDialog::setRemainingTime(unsigned int)@Base" 0.9.0
  (c++)"Fm::FileOperationDialog::staticMetaObject@Base" 0.8.0
  (c++)"Fm::FileOperationDialog::ask(QString, char* const*)@Base" 0.8.0
  (c++)"Fm::FileOperationDialog::error(_GError*, FmJobErrorSeverity)@Base" 0.8.0

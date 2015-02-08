@@ -16,7 +16,7 @@ override_dh_auto_configure:
 
 override_dh_strip:
 	dh_strip -ppcmanfm-qt --dbg-package=pcmanfm-qt-dbg
-	dh_strip -plibfm-qt5-1 --dbg-package=libfm-qt5-dbg
+	dh_strip -plibfm-qt5-2 --dbg-package=libfm-qt5-dbg
 
 
 maintainer-clean:
