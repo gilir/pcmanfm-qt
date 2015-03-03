@@ -1,3 +1,12 @@
+pcmanfm-qt (0.9.0-2) unstable; urgency=medium
+
+  * commit de71f56f8b14a39732d03fe1d3b245c5798dbc4b
+    The "Custom" option in the application chooser combo box inside file
+    properties dialog is broken.
+    Fix by preventing recursive signal handler invocation.
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 03 Mar 2015 02:54:59 +0100
+
 pcmanfm-qt (0.9.0-1) unstable; urgency=low
 
   * RELEASE 0.9.0
