@@ -1,3 +1,10 @@
+pcmanfm-qt (0.9.0-3) unstable; urgency=medium
+
+  * commit 9c70d21f80362a7625dc97403cde2373e42cf2bc
+    Rearrange tab order (tabstops)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 07 Mar 2015 10:11:26 +0100
+
 pcmanfm-qt (0.9.0-2) unstable; urgency=medium
 
   * commit de71f56f8b14a39732d03fe1d3b245c5798dbc4b
