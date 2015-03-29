@@ -1,3 +1,10 @@
+pcmanfm-qt (0.9.0-7) unstable; urgency=medium
+
+  * commit 2a4ec48fd4ff0988eafe818d7c876492522b143f
+    Fix lxde/lxqt#512 - pcmanfm-qt: cannot delete to trash.
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Mar 2015 17:18:24 +0200
+
 pcmanfm-qt (0.9.0-6) unstable; urgency=medium
 
   * commit 925de81f12f110bfb80b25fb99185c2676505ceb
