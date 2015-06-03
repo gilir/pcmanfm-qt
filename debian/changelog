@@ -1,3 +1,12 @@
+pcmanfm-qt (0.9.0-9) unstable; urgency=low
+
+  * commit 2ec4b0736b7cc0a98c4aee46da299d4729376ba2
+    Author: Urs Fleisch <ufleisch@users.sourceforge.net>
+    Date:   Sat May 30 08:49:12 2015 +0200
+    Display folders first when active and sort order descending, fixes #179.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 01 Jun 2015 18:37:33 +0200
+ 
 pcmanfm-qt (0.9.0-7) unstable; urgency=medium
 
   * commit 2a4ec48fd4ff0988eafe818d7c876492522b143f
