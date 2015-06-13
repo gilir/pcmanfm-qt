@@ -1,3 +1,14 @@
+pcmanfm-qt (0.9.0-10) unstable; urgency=medium
+
+  * commit 19deccf470c4f65665c11c546008f323fa946d09
+    Author: attuska <attus@enterpriseforever.com> 
+    Date:   Tue Jun 9 18:29:23 2015 +0200
+    *_hu desktops added
+  * vcs fields, maintainer and uploader fixed
+  * libqtxdg dependency fixed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Jun 2015 23:38:41 +0200
+
 pcmanfm-qt (0.9.0-9) unstable; urgency=low
 
   * commit 2ec4b0736b7cc0a98c4aee46da299d4729376ba2
