@@ -1,3 +1,15 @@
+pcmanfm-qt (0.9.0-13) UNRELEASED; urgency=medium
+
+  * commit 5f8f1e44570f3b86087512098288410dc4bbafec
+    Author: Paulo Lieuthier <paulolieuthier@gmail.com> 
+    Date:   Mon Jun 15 14:47:30 2015 -0300
+    Fix lxde/lxqt#447 - missing actions in Places' context menus
+    Add context menu actions to items in Places. Notably, for the bookmarks
+    section. Also "Open in New Tap" and "Open in New Window" for all
+    actions, except for unmounted volumes.
+ 
+ -- Alf Gaida <agaida@siduction.org>  Wed, 24 Jun 2015 23:06:04 +0200
+
 pcmanfm-qt (0.9.0-12) unstable; urgency=medium
 
   * rebuild  with Qt 5.4.2 

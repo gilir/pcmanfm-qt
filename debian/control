@@ -7,7 +7,7 @@ Uploaders:
  ChangZhuo Chen (陳昌倬) <czchen@gmail.com>,
 Build-Depends:
  automoc,
- cmake (>= 2.8.11),
+ cmake (>= 3.0.2),
  debhelper (>= 9),
  libfm-dev (>= 1.2.0),
  libglib2.0-dev,
@@ -121,4 +121,3 @@ Section: oldlibs
 Architecture: all
 Description: pcmanfm-qt transitional package
  Empty package to facilitate upgrades, can be safely removed.
-
