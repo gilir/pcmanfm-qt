@@ -1,4 +1,13 @@
-pcmanfm-qt (0.9.0-13) UNRELEASED; urgency=medium
+pcmanfm-qt (0.9.0-14) unstable; urgency=medium
+
+  * commit df5b2ba91d26b9ad2fd279a2d6fc3c82b0431869
+    Author: Peter Mattern <matternp@arcor.de>
+    Date:   Thu Jul 2 13:05:11 2015 +0200
+    Add German translation of pcmanfm-qt.desktop 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 02 Jul 2015 21:59:12 +0200
+
+pcmanfm-qt (0.9.0-13) unstable; urgency=medium
 
   * commit 5f8f1e44570f3b86087512098288410dc4bbafec
     Author: Paulo Lieuthier <paulolieuthier@gmail.com> 
@@ -8,7 +17,7 @@ pcmanfm-qt (0.9.0-13) UNRELEASED; urgency=medium
     section. Also "Open in New Tap" and "Open in New Window" for all
     actions, except for unmounted volumes.
  
- -- Alf Gaida <agaida@siduction.org>  Wed, 24 Jun 2015 23:06:04 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sun, 28 Jun 2015 02:08:33 +0200
 
 pcmanfm-qt (0.9.0-12) unstable; urgency=medium
 
