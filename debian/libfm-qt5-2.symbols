@@ -63,17 +63,21 @@ libfm-qt5.so.2 libfm-qt5-2 #MINVER#
  (c++)"Fm::PlacesView::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.8.0
  (c++)"Fm::PlacesView::qt_metacast(char const*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onEmptyTrash()@Base" 0.8.0
+ (c++)"Fm::PlacesView::onOpenNewTab()@Base" 0.9.0
  (c++)"Fm::PlacesView::dragMoveEvent(QDragMoveEvent*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onEjectVolume()@Base" 0.8.0
  (c++)"Fm::PlacesView::onMountVolume()@Base" 0.8.0
  (c++)"Fm::PlacesView::chdirRequested(int, _FmPath*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onUnmountMount()@Base" 0.8.0
  (c++)"Fm::PlacesView::setCurrentPath(_FmPath*)@Base" 0.8.0
+ (c++)"Fm::PlacesView::onOpenNewWindow()@Base" 0.9.0
  (c++)"Fm::PlacesView::onUnmountVolume()@Base" 0.8.0
  (c++)"Fm::PlacesView::contextMenuEvent(QContextMenuEvent*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onDeleteBookmark()@Base" 0.8.0
+ (c++)"Fm::PlacesView::onMoveBookmarkUp()@Base" 0.9.0
  (c++)"Fm::PlacesView::onRenameBookmark()@Base" 0.8.0
  (c++)"Fm::PlacesView::staticMetaObject@Base" 0.8.0
+ (c++)"Fm::PlacesView::onMoveBookmarkDown()@Base" 0.9.0
  (c++)"Fm::PlacesView::onEjectButtonClicked(Fm::PlacesModelItem*)@Base" 0.8.0
  (c++)"Fm::PlacesView::dropEvent(QDropEvent*)@Base" 0.8.0
  (c++)"Fm::PlacesView::onClicked(QModelIndex const&)@Base" 0.8.0
