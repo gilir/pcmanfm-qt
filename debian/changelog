@@ -1,3 +1,13 @@
+pcmanfm-qt (0.9.0-15) unstable; urgency=medium
+
+  * commit 713ca7798787fbc4a5fc388d5aec6fda41edaa5c
+    Author: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+    Date:   Sun Jul 5 13:24:49 2015 +0800
+    Merge branch 'static_checking' of https://github.com/ufleisch/pcmanfm-qt
+    into ufleisch-static_checking
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 05 Jul 2015 17:50:04 +0200
+
 pcmanfm-qt (0.9.0-14) unstable; urgency=medium
 
   * commit df5b2ba91d26b9ad2fd279a2d6fc3c82b0431869
