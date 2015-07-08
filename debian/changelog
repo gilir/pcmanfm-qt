@@ -1,3 +1,9 @@
+pcmanfm-qt (0.9.0-18) unstable; urgency=medium
+
+  * fix libqt-fm install 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 08 Jul 2015 23:55:25 +0200
+
 pcmanfm-qt (0.9.0-17) unstable; urgency=medium
 
   * commit edee5800c5885de5c17bcba98fa1452d4d9e0bdc
