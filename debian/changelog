@@ -1,3 +1,9 @@
+pcmanfm-qt (0.9.0-20) unstable; urgency=medium
+
+  * fix symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 10 Jul 2015 02:47:54 +0200
+
 pcmanfm-qt (0.9.0-19) unstable; urgency=medium
 
   * commit 21ef30302faf7c973d95c1473087bcb2d40b3f72
