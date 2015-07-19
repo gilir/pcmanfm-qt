@@ -1,5 +1,6 @@
 # don't track upstream sources
 /checkout
+/backport
 
 # don't track package builds
 /*.deb
