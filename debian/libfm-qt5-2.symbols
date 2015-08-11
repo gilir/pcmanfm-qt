@@ -113,6 +113,7 @@ libfm-qt5.so.2 libfm-qt5-2 #MINVER#
  (c++)"Fm::DirTreeView::chdirRequested(int, _FmPath*)@Base" 0.8.0
  (c++)"Fm::DirTreeView::setCurrentPath(_FmPath*)@Base" 0.8.0
  (c++)"Fm::DirTreeView::mousePressEvent(QMouseEvent*)@Base" 0.9.0
+ (c++)"Fm::DirTreeView::prepareFileMenu(Fm::FileMenu*)@Base" 0.9.0
  (c++)"Fm::DirTreeView::onOpenInTerminal()@Base" 0.9.0
  (c++)"Fm::DirTreeView::staticMetaObject@Base" 0.8.0
  (c++)"Fm::DirTreeView::expandPendingPath()@Base" 0.8.0
@@ -151,7 +152,6 @@ libfm-qt5.so.2 libfm-qt5-2 #MINVER#
  (c++)"Fm::FolderModel::setFolder(_FmFolder*)@Base" 0.8.0
  (c++)"Fm::FolderModel::FolderModel()@Base" 0.8.0
  (c++)"Fm::FolderModel::~FolderModel()@Base" 0.8.0
- (c++)"Fm::PlacesModel::ItemAction::~ItemAction()@Base" 0.8.0
  (c++)"Fm::PlacesModel::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.8.0
  (c++)"Fm::PlacesModel::qt_metacast(char const*)@Base" 0.8.0
  (c++)"Fm::PlacesModel::updateIcons()@Base" 0.8.0
@@ -423,13 +423,11 @@ libfm-qt5.so.2 libfm-qt5-2 #MINVER#
  (c++)"Fm::cutFilesToClipboard(_FmPathList*)@Base" 0.8.0
  (c++)"Fm::PlacesModelMountItem::update()@Base" 0.8.0
  (c++)"Fm::PlacesModelMountItem::PlacesModelMountItem(_GMount*)@Base" 0.8.0
- (c++)"Fm::PlacesModelMountItem::~PlacesModelMountItem()@Base" 0.8.0
  (c++)"Fm::copyFilesToClipboard(_FmPathList*)@Base" 0.8.0
  (c++)"Fm::isUriSchemeSupported(char const*)@Base" 0.8.0
  (c++)"Fm::PlacesModelVolumeItem::update()@Base" 0.8.0
  (c++)"Fm::PlacesModelVolumeItem::isMounted()@Base" 0.8.0
  (c++)"Fm::PlacesModelVolumeItem::PlacesModelVolumeItem(_GVolume*)@Base" 0.8.0
- (c++)"Fm::PlacesModelVolumeItem::~PlacesModelVolumeItem()@Base" 0.8.0
  (c++)"Fm::PlacesModelBookmarkItem::PlacesModelBookmarkItem(_FmBookmarkItem*)@Base" 0.8.0
  (c++)"Fm::pasteFilesFromClipboard(_FmPath*, QWidget*)@Base" 0.8.0
  (c++)"Fm::LibFmQt::translator()@Base" 0.8.0
@@ -484,6 +482,7 @@ libfm-qt5.so.2 libfm-qt5-2 #MINVER#
  (c++)"Fm::SidePane::setShowHidden(bool)@Base" 0.8.0
  (c++)"Fm::SidePane::chdirRequested(int, _FmPath*)@Base" 0.8.0
  (c++)"Fm::SidePane::setCurrentPath(_FmPath*)@Base" 0.8.0
+ (c++)"Fm::SidePane::prepareFileMenu(Fm::FileMenu*)@Base" 0.9.0
  (c++)"Fm::SidePane::staticMetaObject@Base" 0.8.0
  (c++)"Fm::SidePane::createNewFolderRequested(_FmPath*)@Base" 0.9.0
  (c++)"Fm::SidePane::onComboCurrentIndexChanged(int)@Base" 0.8.0
