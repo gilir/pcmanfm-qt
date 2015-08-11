@@ -1,3 +1,13 @@
+pcmanfm-qt (0.9.0-23) unstable; urgency=medium
+
+  * commit 3613436eb85e10b2c990f7cd7d0da2accf16bf5c
+    Author: Ilya87 <yast4ik@yahoo.com>
+    Date:   Mon Jul 20 15:53:57 2015 +0300
+
+    Update Russian translation
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 11 Aug 2015 03:11:02 +0200
+
 pcmanfm-qt (0.9.0-22) unstable; urgency=medium
 
   * commit cfdbb92cef6df49b5f2d8fcf955db6c230771349
