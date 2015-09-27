@@ -2,14 +2,15 @@ Source: pcmanfm-qt
 Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
-           Andrew Lee (李健秋) <ajqlee@debian.org>
+           Andrew Lee (李健秋) <ajqlee@debian.org>,
+           Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
 Section: x11
 Priority: optional
 Build-Depends: cmake (>= 3.0.2),
                debhelper (>= 9),
                libfm-dev (>= 1.2.0),
                libglib2.0-dev,
-               liblxqt0-dev,
+               liblxqt0-dev (>= 0.9.0+20150911),
                libmenu-cache-dev,
                libqt5x11extras5-dev,
                libqt5xdg-dev,
