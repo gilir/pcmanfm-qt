@@ -1,3 +1,10 @@
+pcmanfm-qt (0.9.0+20150929-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 0.9.0+20150929.
+  * New symbol added
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 03 Oct 2015 19:57:09 +0200
+
 pcmanfm-qt (0.9.0+20150927-1) unstable; urgency=medium
 
   * Cherry-picked upstream version 0.9.0+20150927.
@@ -7,7 +14,7 @@ pcmanfm-qt (0.9.0+20150927-1) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 28 Sep 2015 01:00:15 +0200
 
-pcmanfm-qt (0.9.0+20150925-1) experimental; urgency=medium
+pcmanfm-qt (0.9.0+20150925-1) unstable; urgency=medium
 
   * Cherry-picked upstream version 0.9.0+20150925.
   * Fixed source/options - no need to ignore .kdev4, fixed upstream
